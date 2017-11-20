@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mr Robot!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet" href="styleMy.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <div>
+            <a class="headerlogo" href="index.html">
+                <img id="logo" src="images/logo.jpg" />
+            </a>
+            <span id="headername">Mr. Robot</span>
+            <input type="search" class="searchbox" placeholder="Search our store" />
+        </div>
+
+        <nav class="backgroundgradient">
+            <ul  id="horizontalBox">
+              <li><a class="navlink" href="indexMy.html">Home</a></li>
+              <li><a class="navlink" href="robotsMy.html">Robots</a></li>
+              <li><a class="navlink active" href="computersMy.html">Hardware</a></li>
+              <li><a class="navlink" href="contactMe.html">Contact</a></li>
+              <li><a class="navlink" href="aboutMe.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form>
+      <fieldset id="CPU">
+            <legend>Select a CPU</legend>
+            <div class ="labeltext"> 
+                <p><label for="i3"><input class ="labeltext" type="radio" name="CPU" id="i3">Intel i3</label></p>
+                <p><label for="i4"><input class ="labeltext" type="radio" name="CPU" id="i4">Intel i4</label></p>
+                <p><label for="i7"><input class ="labeltext" type="radio" name="CPU" id="i7">Intel i7</label></p>
+            </div>
+      </fieldset>
+      <fieldset id="Ram">
+             <legend>Select Ram</legend>
+             <div class="labeltext">
+                  <p><label for="8"><input class="labeltext" type="radio" name="ram" id="8">8gig</label></p>
+                  <p><label for="16"><input class="labeltext" type="radio" name="ram" id="16">16gig</label></p>
+             </div>
+      </fieldset>
+      <fieldset id="electronics">
+              <legend>Electronics</legend>
+              <div class="labeltext">
+                  <p><label for="vrh"><input class="labeltext" type="checkbox" name="electronics" id="vrh">Virtual Reality Helmet</label></p>
+                  <p><label for="3ds"><input class="labeltext" type="checkbox" name="electronics" id="3ds">3D Screen</label></p>
+                  <p><label for="ss"><input class="labeltext" type="checkbox" name="electronics" id="ss">Stereo Speakers</label></p>
+              </div>
+      </fieldset>
+      <p>
+        <button id="btnChoice">Submit</button>
+      </p>
+    </form>
+
+    <footer class="contacts">
+      <p>Our address is <address>1011 Crater Ave, Moon City: THE MOON</address></p>
+      <p class="textcontent">All site contents is copyright <a class="mainlink" href="http://www.mrrobot.com">Mr Robot!</a></p>
+      <p class="smalltext">This page was generated on <time>09:25:04.123</time>.</p>
+    </footer>
+    
+</body>
+</html>

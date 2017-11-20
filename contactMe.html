@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mr Robot!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet" href="styleMy.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <div>
+            <a class="headerlogo" href="index.html">
+                <img id ="logo" src="images/logo.jpg" />
+            </a>
+            <span id="headername">Mr. Robot</span>
+            <input type="search" class="searchbox" placeholder="Search our store" />
+        </div>
+
+        <nav class="backgroundgradient">
+            <ul id="horizontalBox">
+              <li><a class="navlink" href="indexMy.html">Home</a></li>
+              <li><a class="navlink" href="robotsMy.html">Robots</a></li>
+              <li><a class="navlink" href="computersMy.html">Hardware</a></li>
+              <li><a class="navlink active" href="contactMe.html">Contact</a></li>
+              <li><a class="navlink" href="aboutMe.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+      <img id="welcomeimage" src="images/Mr.-Robot-Welcome.png" alt="About us">
+    </div>
+
+    <form id="contactForm">
+          <fieldset>
+                <legend>Enter your Contact info below:</legend>
+                <div class="labeltext">
+                    <p>
+                        <label for="fullname">Full Name:</label><input class ="labeltext" type="text" name="fullname" id="fullname">
+                    </p>
+                    <p>
+                        <label for="email">Email:</label><input class ="labeltext" type="email" name="email" id="email">
+                    </p>
+                    <p>
+                        <label for="yloc">Location:</label>
+                            <select id="yloc" class ="labeltext">
+                              <option value="0">Moon</option>
+                              <option value="1">Earth</option>
+                            </select>
+                    </p>
+                    <p>
+                        <label for="question">Your Question:</label><br>
+                        <textarea class ="labeltext" id="question" cols="50" rows="10" maxlength="500"></textarea>
+                    </p>
+                </div>
+          </fieldset>
+          <p>
+          <button id="btnSendInfo" class="submitbutton">Send Info</button>
+          </p>
+    </form>
+
+    <footer class="contacts">
+      <p>Our address is <address>1011 Crater Ave, Moon City: THE MOON</address></p>
+      <p class="textcontent">All site contents is copyright <a class="mainlink" href="http://www.mrrobot.com">Mr Robot!</a></p>
+      <p class="smalltext">This page was generated on <time>09:25:04.123</time>.</p>
+    </footer>
+    
+</body>
+</html>
